@@ -81,3 +81,5 @@ for _, row in df.iterrows():
 
 tree = ET.ElementTree(root)
 tree.write(str("NC_01-01-2017_31-12-2017_"+zi+"-"+dat+"-"+an+".xml"), encoding="utf-8", xml_declaration=True)
+
+print("Fisierul a fost generat cu succes!")
